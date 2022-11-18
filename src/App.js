@@ -1,12 +1,16 @@
-import Maps from "./Components/Maps";
-import "./App.scss";
+import React from 'react';
+import { render } from 'react-dom';
+import Maps from './Components/Maps';
 
-function App() {
-  return (
-    <div className="App">
-      <Maps/>
-    </div>
-  );
+class App extends React.Component {
+  
+  render() {
+    return (
+      <div>
+        <Maps />
+      </div>
+    );
+  }
 }
 
 export default App;
